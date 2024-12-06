@@ -27,7 +27,15 @@ class Car{
 
 int main()
 {
+  // First Car
   Car myCar("Dodge Challenger", "Hellcat", 2024);
+  cout << "First Car \n";
   myCar.showDetails();
+
+  // Second Car
+  Car myCar2("Honda", "Honda City", 2021);
+  cout << "Second Car \n";
+  myCar2.showDetails();
+  
   return 0;
 }
